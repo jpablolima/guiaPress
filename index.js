@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const connection = require('./database/connection')
+const connection = require('./database/connection');
+const categoriesController = require('./categories/CategoriesController');
+const articlesController = require('./articles/ArticleController');
 
 PORT = 3000;
 
@@ -24,6 +26,12 @@ connection
     }).catch((error) => {
         console.log(error)
     });
+
+
+app.use('/', categoriesController);
+app.use('/', articlesController);
+
+
 
 
 app.get('/', (req, res) => {
