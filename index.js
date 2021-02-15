@@ -7,8 +7,6 @@ const articlesController = require('./articles/ArticleController');
 
 PORT = 3000;
 
-
-
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
@@ -30,7 +28,6 @@ connection
 
 app.use('/', categoriesController);
 app.use('/', articlesController);
-
 
 
 
