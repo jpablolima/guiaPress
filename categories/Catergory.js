@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const connection = require('../database/');
+const connection = require('../database/connection');
 
 const Category = connection.define('categories', {
     title: {
@@ -12,5 +12,7 @@ const Category = connection.define('categories', {
     }
 });
 
+// excutar o sync uma vez
+// Category.sync({ force: true })
 
 module.exports = Category;

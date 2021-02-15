@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize');
-const connection = require('../database/');
+const connection = require('../database/connection');
+const Category = require('../categories/Catergory');
 
-const Article = connection('articles', {
+const Article = connection.define('articles', {
     title: {
         type: Sequelize.STRING,
         allowNull: false
@@ -16,5 +17,14 @@ const Article = connection('articles', {
     }
 });
 
+
+// Relacionando tabelas 
+Category.hasMany(Article);
+Article.belongsTo(Category);
+
+// Sincronizar o relacionamento no DB
+
+// excutar o sync uma vez
+// Article.sync({ force: true });
 
 module.exports = Article;
