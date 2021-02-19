@@ -9,6 +9,16 @@
  - [Sobre](#sobre)
  - [Tecnologias utilizadas](#-tecnologias-utilizadas)
  - [Como baixar o projeto](#-como-baixar-o-projeto) 
+
+---
+
+ <h2 align="center"> 	
+ 
+   🚧  GuiaPress 🚀 Em construção...  🚧
+
+ </h2>
+
+---
 ## Sobre
 <p align="center"> Blog com painel Adminstrativo</p>
 
@@ -26,12 +36,22 @@
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
 - [ejs](https://ejs.co/)
-<!-- ---
-### Features -->
 
-<!-- - [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos -->
+## Versões utilizadas
+- Node v14.15.0
+- Mysql Server version: 8.0.23 MySQL Community Server - GPL
+- Bootstrap v5.0.0
+- Sequelize v6.5.0
+- ejs v3.1.6
+
+
+
+### Features 
+
+- ✅ Cadastro de categorias
+- ✅ Lista de categorias
+- ✅ Deletando  categorias
+
 
 ---
 ## 📦 Como baixar o projeto 
