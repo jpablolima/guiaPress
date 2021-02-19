@@ -5,7 +5,7 @@
 
 
 
-# Indice
+# Índice
  - [Sobre](#sobre)
  - [Tecnologias utilizadas](#-tecnologias-utilizadas)
  - [Como baixar o projeto](#-como-baixar-o-projeto) 
@@ -26,7 +26,14 @@
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
 - [ejs](https://ejs.co/)
+---
+### Features
 
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
+
+---
 ## 📦 Como baixar o projeto 
 
 ```
@@ -43,4 +50,4 @@
    $ npm start
 ```
 ---
-Desenvolvido por João Pablo 
+Desenvolvido por  🚀João Pablo 
