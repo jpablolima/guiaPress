@@ -26,12 +26,12 @@
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
 - [ejs](https://ejs.co/)
----
-### Features
+<!-- ---
+### Features -->
 
-- [x] Cadastro de usuário
+<!-- - [x] Cadastro de usuário
 - [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+- [ ] Cadastro de produtos -->
 
 ---
 ## 📦 Como baixar o projeto 
