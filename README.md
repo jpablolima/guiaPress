@@ -51,6 +51,7 @@
 - ✅ Cadastro de categorias
 - ✅ Lista de categorias
 - ✅ Deletando  categorias
+- ✅ Edição de  categorias
 
 
 ---
